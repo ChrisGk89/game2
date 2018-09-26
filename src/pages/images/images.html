@@ -1,0 +1,139 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Image Gallery
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background-color">
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/1.jpg"/>
+          <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input type="text" placeholder="Word Input" name="description" ngModel required></ion-input>
+          </ion-item>
+          </form>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/2.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/3.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/4.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/5.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card>
+          <img src="assets/imgs/6.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/7.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/8.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col>
+      <ion-col col-12 col-sm text-center>
+        <ion-card class="image">
+          <img src="assets/imgs/9.jpg"/>
+          <ion-item >
+            <ion-label color="primary">What do you see?</ion-label>
+            <ion-input placeholder="Word Input"></ion-input>
+          </ion-item>
+          <div class="center" style="padding-bottom: 10px">
+            <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+          </div>
+        </ion-card>
+      </ion-col><ion-col col-12 col-sm text-center>
+      <ion-card class="image">
+        <img src="assets/imgs/10.jpg"/>
+        <ion-item >
+          <ion-label color="primary">What do you see?</ion-label>
+          <ion-input placeholder="Word Input"></ion-input>
+        </ion-item>
+        <div class="center" style="padding-bottom: 10px">
+          <button ion-button round medium color="secondary" type="submit" [disabled]="!f.valid">Submit</button>
+        </div>
+      </ion-card>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
