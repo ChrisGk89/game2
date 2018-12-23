@@ -4872,10 +4872,6 @@ textarea::-webkit-input-placeholder {
   padding-left: 2px;
 }
 
-textarea:-ms-input-placeholder {
-  padding-left: 2px;
-}
-
 textarea::-ms-input-placeholder {
   padding-left: 2px;
 }
@@ -25679,12 +25675,16 @@ ion-navbar.toolbar {
 }
 
 .cards-bg {
-  background-color: darkcyan;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 12s ease infinite;
+  animation: Gradient 12s ease infinite;
 }
 
 .cards {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -25693,6 +25693,36 @@ ion-navbar.toolbar {
 
 .img {
   border-radius: 5%;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  text-align: center;
 }
 
 .tutorial-page .toolbar-background {
@@ -25746,8 +25776,180 @@ page-images .image-container {
   background-color: #f4f4f4;
 }
 
+.h2 {
+  text-align: center;
+  color: #488aff;
+}
+
+page-images2 .image-container {
+  min-height: 200px;
+  background-size: cover;
+}
+
+.image, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10 {
+  border-radius: 5%;
+}
+
+.background-color {
+  background-color: #f4f4f4;
+}
+
+.h2 {
+  text-align: center;
+  color: #488aff;
+}
+
 page-intro .center {
   padding-top: 100px;
+}
+
+.content-intro {
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
+page-leaderboard {
+  color: beige;
+}
+
+page-leaderboard .card-five {
+  border-radius: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+page-leaderboard .header_rwo .col {
+  font-weight: bold;
+}
+
+page-leaderboard .header_players .col {
+  color: #32db64;
+}
+
+page-login .login-content {
+  background: #ffffff;
+}
+
+page-login .login-content .logo-row {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+page-login .login-content .login-box {
+  background: #399F8B;
+  padding: 20px 20px 0px 20px;
+  margin-top: 30px;
+}
+
+page-login .login-content ion-row {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+page-login .login-content ion-item {
+  border-radius: 30px !important;
+  padding-left: 30px !important;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-bottom: 0px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+page-login .login-content .signup-col {
+  margin: 0px 16px 0px 16px;
+  padding-bottom: 20px;
+}
+
+page-login .login-content .item-inner {
+  border-bottom-color: #ffffff !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+page-login .login-content .submit-btn {
+  background: #51CFB1;
+  border-radius: 30px !important;
+  border: 1px solid #ffffff;
+}
+
+page-login .login-content .register-btn {
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+page-login .title {
+  text-align: center;
+  padding-top: 15%;
+  font-weight: bold;
+}
+
+page-login .title2 {
+  padding-top: 7px;
+}
+
+page-register .login-content {
+  background: #ffffff;
+}
+
+page-register .login-content .login-box {
+  background: #509287;
+  padding: 20px 20px 0px 20px;
+  margin-top: 30px;
+}
+
+page-register .login-content ion-row {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+page-register .login-content ion-item {
+  border-radius: 30px !important;
+  padding-left: 30px !important;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-bottom: 0px !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+page-register .login-content .signup-col {
+  margin: 0px 16px 0px 16px;
+  padding-bottom: 20px;
+}
+
+page-register .login-content .item-inner {
+  border-bottom-color: #ffffff !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+page-register .login-content .submit-btn {
+  background: #51CFB1;
+  border-radius: 30px !important;
+  border: 1px solid #ffffff;
 }
 
 .tutorial-page .toolbar-background {

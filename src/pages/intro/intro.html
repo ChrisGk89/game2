@@ -1,13 +1,20 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>DesCra(i)b</ion-title>
+    <ion-title>Welcome to Descra(i)b</ion-title>
+
+    <ion-buttons end>
+      <button ion-button (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content>
+<ion-content class="content-intro">
 
   <ion-card-content>
 
@@ -20,7 +27,7 @@
           </div>
 
       <div class="center" style="padding-top: 50px">
-  <button class="leaderboard" ion-button round large color="light">LeaderBoard</button>
+  <button class="leaderboard" ion-button round large color="light" (click)="lEaderboardPage()">LeaderBoard</button>
       </div>
 
       <div class="center" style="padding-top: 50px">

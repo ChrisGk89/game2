@@ -27,8 +27,8 @@ export class WelcomePage {
       image: "assets/imgs/phone.png",
     },
     {
-      title: "DesCra(i)b cloud will reward you",
-      description: "<b>DesCra(i)b Cloud.</b> After submiting your answers our system will review your photos and reward your points. So the more you play the more you win.",
+      title: "DesCra(i)b wizard will reward you",
+      description: "<b>DesCra(i)b Wizard.</b> After submiting your answers our system will review your photos and reward your points. So the more you play the more you win.",
       image: "assets/imgs/ica-slidebox-img-3.png",
     }
   ];
