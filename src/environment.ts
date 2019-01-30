@@ -9,4 +9,4 @@ export const environment = {
   },
   googleCloudVisionAPIKey: "AIzaSyA9TsJ9C6VxpUEfUVbxkEsWumZbBFSkrDM"
 
-};
+}
